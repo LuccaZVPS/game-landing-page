@@ -2,9 +2,9 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 *{
-    @font-face { font-family: Gotham; src: url('Gotham-Font/GothamMedium.otf'); } 
-     @font-face { font-family: Gotham; font-weight: bold; src: url('/Gotham-Font/Gotham-Bold.otf');}
-     @font-face { font-family: Gotham; font-weight: 600; src: url('/Gotham-Font/GothamBook.otf');;}
+    @font-face { font-family: Gotham; src: url('/Gotham-Font/GothamMedium.ttf'); } 
+     @font-face { font-family: Gotham; font-weight: bold; src: url('/Gotham-Font/Gotham-Bold.ttf');}
+     @font-face { font-family: Gotham; font-weight: 600; src: url('/Gotham-Font/GothamBook.ttf');;}
     box-sizing: border-box;
     margin: 0;
     padding: 0;
