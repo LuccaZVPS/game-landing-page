@@ -12,7 +12,11 @@ export const Container = styled.ul`
       color: var(--ACCENT);
     }
   }
-
+  @media (max-width: 1450px) {
+    li a {
+      font-size: 0.95rem;
+    }
+  }
   @media (max-width: 1200px) {
     li a {
       font-size: 0.9rem;
