@@ -4,6 +4,7 @@ export const Container = styled.ul`
   list-style: none;
   display: flex;
   gap: 28px;
+  z-index: 200;
   li a {
     text-decoration: none;
     color: var(--NEUTRAL);

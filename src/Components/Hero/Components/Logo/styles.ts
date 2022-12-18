@@ -8,4 +8,5 @@ export const Container = styled.div`
   color: var(--NEUTRAL);
   z-index: 100;
   font-weight: bold;
+  z-index: 500;
 `;
