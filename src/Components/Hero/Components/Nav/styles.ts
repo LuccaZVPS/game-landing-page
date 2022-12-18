@@ -8,6 +8,7 @@ export const Container = styled.ul`
     text-decoration: none;
     color: var(--NEUTRAL);
     transition: 0.2s;
+    font-weight: bold;
     :hover {
       color: var(--ACCENT);
     }

@@ -7,4 +7,5 @@ export const Container = styled.div`
   font-size: 1.4rem;
   color: var(--NEUTRAL);
   z-index: 100;
+  font-weight: bold;
 `;
