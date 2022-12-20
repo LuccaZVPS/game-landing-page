@@ -1,4 +1,4 @@
-import { Description } from "../Description";
+import { Description } from "../shared/Description";
 import { Header } from "./Components/Header";
 import { Container } from "./styles";
 export function Hero() {
