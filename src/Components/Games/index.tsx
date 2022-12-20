@@ -2,6 +2,7 @@ import { Game } from "./Components/Game";
 import { fakeData, IGame } from "./fakeData";
 import { Container } from "./styles";
 import { useEffect, useRef, useState } from "react";
+import { Heading } from "../shared/Heading";
 export function Games() {
   const filters = useRef(null as unknown as HTMLDivElement);
   const [data, setData] = useState<IGame[]>(fakeData);
@@ -29,7 +30,7 @@ export function Games() {
   return (
     <Container>
       <div className="games-content">
-        <h2>Newly Released Games</h2>
+        <Heading>Newly Released Games</Heading>
         <div className="filters" ref={filters}>
           <div className="clicked">ALL</div>
           <div>PS5</div>
