@@ -17,7 +17,6 @@ export const Container = styled.div`
   min-height: 100vh;
   h2 {
     text-align: center;
-    font-size: 2rem;
   }
   .games-content {
     display: flex;
