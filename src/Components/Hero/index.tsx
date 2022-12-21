@@ -4,7 +4,7 @@ import { Container } from "./styles";
 import { Button } from "../shared/Button";
 export function Hero() {
   return (
-    <Container>
+    <Container id="home">
       <div className="hero-content">
         <Header />
         <div className="hero-content-text">

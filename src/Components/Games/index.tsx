@@ -28,7 +28,7 @@ export function Games() {
       .forEach((item) => item.classList.remove("clicked"));
   };
   return (
-    <Container>
+    <Container id="store">
       <div className="games-content">
         <Heading>Newly Released Games</Heading>
         <div className="filters" ref={filters}>

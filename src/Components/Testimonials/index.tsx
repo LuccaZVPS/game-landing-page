@@ -7,7 +7,7 @@ import img2 from "./Assets/img2.png";
 
 export function Testimonials() {
   return (
-    <Container>
+    <Container id="testimonials">
       <Description txt="Testimonials" />
       <Heading>What our Customers are saying</Heading>
       <div className="testimonial-container">

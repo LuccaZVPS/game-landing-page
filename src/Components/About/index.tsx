@@ -4,7 +4,7 @@ import { Heading } from "../shared/Heading";
 import { Summary } from "./Components/Summary";
 export function About() {
   return (
-    <Container>
+    <Container id="about">
       <div className="left">
         <img src={img} alt="" />
       </div>
