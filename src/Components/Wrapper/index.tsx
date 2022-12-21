@@ -1,4 +1,5 @@
 import { About } from "../About";
+import { Footer } from "../Footer";
 import { Games } from "../Games";
 import { Hero } from "../Hero";
 import { Testimonials } from "../Testimonials";
@@ -11,6 +12,7 @@ export function Wrapper() {
       <Games />
       <About />
       <Testimonials />
+      <Footer />
     </Container>
   );
 }
