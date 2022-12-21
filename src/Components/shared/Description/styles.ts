@@ -1,16 +1,18 @@
 import styled from "styled-components";
-
-export const Container = styled.div`
+interface props {
+  color: string;
+}
+export const Container = styled.div<props>`
   position: relative;
   display: flex;
   align-items: center;
   width: fit-content;
-  color: var(--NEUTRAL);
+  color: ${({ color }) => color};
   ::before {
     position: absolute;
     left: -50px;
     content: "";
-    background-color: var(--NEUTRAL);
+    background-color: ${({ color }) => color};
     width: 35px;
     height: 1.5px;
   }
@@ -18,7 +20,7 @@ export const Container = styled.div`
     position: absolute;
     right: -50px;
     content: "";
-    background-color: var(--NEUTRAL);
+    background-color: ${({ color }) => color};
     width: 35px;
     height: 1.5px;
   }
