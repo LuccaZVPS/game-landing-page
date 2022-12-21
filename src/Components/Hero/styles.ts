@@ -38,25 +38,7 @@ export const Container = styled.div`
       text-align: center;
     }
     button {
-      margin-top: 35px;
-      width: 300px;
-      height: 60px;
-      font-size: 1rem;
-      /* Medley/Gradient */
-      background: linear-gradient(267.28deg, #7b61ff 24%, #aa82ff 73.95%);
-      backdrop-filter: blur(1.39259px);
-      /* Note: backdrop-filter has minimal browser support */
-      border-radius: 69.6295px;
-      border: none;
-      outline: none;
-      color: var(--NEUTRAL);
-      cursor: pointer;
-      transition: 0.3s;
-      font-weight: bold;
-
-      :hover {
-        box-shadow: 0 0 7px #1c1c28;
-      }
+      margin-top: 30px;
     }
   }
   .hero-background {
@@ -79,9 +61,7 @@ export const Container = styled.div`
         font-size: 2.5rem;
       }
       button {
-        width: 250px;
-        height: 55px;
-        font-size: 0.95rem;
+        margin-top: 25px;
       }
     }
   }
@@ -95,10 +75,6 @@ export const Container = styled.div`
       h1 {
         margin-top: 10px;
         font-size: 2.2rem;
-      }
-      button {
-        font-size: 0.9rem;
-        width: 240px;
       }
     }
   }
@@ -120,13 +96,6 @@ export const Container = styled.div`
         br {
           display: none;
         }
-      }
-      button {
-        font-weight: bold;
-        margin-top: 20px;
-        font-size: 0.8rem;
-        width: 220px;
-        height: 52px;
       }
     }
   }
