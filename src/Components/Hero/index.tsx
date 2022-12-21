@@ -8,7 +8,7 @@ export function Hero() {
       <div className="hero-content">
         <Header />
         <div className="hero-content-text">
-          <Description txt="GAMEWORLD DISTRIBUTORS" />
+          <Description txt="GAMEWORLD DISTRIBUTORS" color="#FFFFFF" />
           <h1>
             Connecting Players & <br /> Games in an Immersive environment
           </h1>
