@@ -23,7 +23,12 @@ export const Container = styled.div`
 
   @media (max-width: 850px) {
     padding-top: 15px;
-    position: relative;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    padding: 15px 15px;
     .header-menu {
       display: flex;
       z-index: 300;
@@ -33,7 +38,7 @@ export const Container = styled.div`
       display: flex;
       height: 100vh;
       top: -100vh;
-      left: -15px;
+      left: -0px;
       width: 100vw;
       background: rgba(255, 255, 255, 0.2);
       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);

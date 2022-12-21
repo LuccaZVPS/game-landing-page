@@ -24,7 +24,7 @@ export const Container = styled.div`
     align-items: center;
     position: relative;
     width: 100%;
-    z-index: 100;
+    z-index: 20;
   }
   .filters {
     display: flex;
