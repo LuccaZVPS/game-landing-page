@@ -8,15 +8,15 @@ export function Nav() {
       </li>
       <li>
         {" "}
+        <a href="#store">Store</a>
+      </li>
+      <li>
+        {" "}
         <a href="#about">About</a>
       </li>
       <li>
         {" "}
-        <a href="#privacy">Privacy Policy</a>
-      </li>
-      <li>
-        {" "}
-        <a href="#shop">Our Shop</a>
+        <a href="#testimonials">Testimonials</a>
       </li>
     </Container>
   );
